@@ -137,14 +137,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="md:px-14 mt-14 md:mt-44 mb-96">
-        <h1 className="text-4xl font-bold text-center text-gray-200">
+      <div className="md:px-14 mt-14 md:mt-44 ">
+        <h1 className="text-3xl font-bold text-center text-gray-200 md:text-4xl">
           My Recent Works
         </h1>
 
         <div className="flex flex-col md:flex-row gap-8  text-gray-200 mt-16 md:mt-28 tablet:grid tablet:grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
           <div className=" relative w-full flex flex-col justify-center items-center bg-gray-900 px-10 md:py-10 py-6 md:gap-12 gap-8 text-center rounded-3xl ">
-            <h1 className="text-4xl">My Blog</h1>
+            <h1 className="md:text-4xl text-3xl">My Blog</h1>
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
@@ -180,7 +180,7 @@ const Home = () => {
           </div>
 
           <div className=" relative w-full flex flex-col justify-center items-center bg-gray-900 px-10 md:py-10 py-6 md:gap-12 gap-8 text-center rounded-3xl ">
-            <h1 className="text-4xl">Shemachoch</h1>
+            <h1 className="md:text-4xl text-3xl">Shemachoch</h1>
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
@@ -216,7 +216,7 @@ const Home = () => {
           </div>
 
           <div className=" relative w-full flex flex-col justify-center items-center bg-gray-900 px-10 md:py-10 py-6 md:gap-12 gap-8 text-center rounded-3xl ">
-            <h1 className="text-4xl">Amazon</h1>
+            <h1 className="md:text-4xl text-3xl">Amazon</h1>
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
@@ -252,7 +252,7 @@ const Home = () => {
           </div>
         </div>
 
-        <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 mx-auto md:mt-10 mt-4">
+        <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 mx-auto md:mt-6 mt-4 mb-20">
             View All Projects
             <span className="group-hover:rotate-[360deg] duration-1000 inline-block">
               <FaArrowRight />

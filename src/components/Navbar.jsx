@@ -21,7 +21,7 @@ const Navbar = () => {
  
 
   return (
-    <div className="bg-black flex items-center justify-between w-full h-20 text-white fixed px-4 md:px-16 py-10 z-40">
+    <div className="bg-black flex items-center justify-between w-full h-20 text-white fixed px-4 md:px-16 py-10 z-40 max-width">
       <div>
         <h1 className="font-carattere font-bold text-4xl ml-5">
           Nathe<span className="text-orange-500 ml-2">Works</span>{" "}

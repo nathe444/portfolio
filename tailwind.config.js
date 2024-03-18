@@ -10,7 +10,7 @@ export default {
         'vsm': '300px',
         'tablet': {
           'min': '750px',
-          'max': '1048px'
+          'max': '1200px'
         },
       },
     },
