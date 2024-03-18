@@ -21,7 +21,7 @@ const Navbar = () => {
  
 
   return (
-    <div className="bg-black flex items-center justify-between w-full h-20 text-white fixed px-4 md:px-16 py-12">
+    <div className="bg-black flex items-center justify-between w-full h-20 text-white fixed px-4 md:px-16 py-10 z-40">
       <div>
         <h1 className="font-carattere font-bold text-4xl ml-5">
           Nathe<span className="text-orange-500 ml-2">Works</span>{" "}
@@ -84,7 +84,7 @@ const Navbar = () => {
         className={`${
           nav
             ? `opacity-100 transform translate-y-0 `
-            : `opacity-0 transform translate-x-full`
+            : ` opacity-0 transform translate-x-full`
         } transition-transform-all absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 flex flex-col items-center justify-center duration-700 `}
       >
         <NavLink to="/">

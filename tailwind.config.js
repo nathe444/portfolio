@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'vsm': '300px',
+        'tablet': {
+          'min': '750px',
+          'max': '1048px'
+        },
+      },
+    },
     fontFamily: {
       carattere: ["Carattere"]
     },
