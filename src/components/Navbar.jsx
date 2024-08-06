@@ -18,8 +18,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
- 
-
   return (
     <div className="bg-black flex items-center justify-between w-full h-20 text-white fixed px-4 md:px-16 py-10 z-40 max-width">
       <div>
@@ -29,23 +27,15 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        <NavLink to="/" >
-
-        <li className="mx-7 cursor-pointer hover:scale-110 duration-300 text-1xl " >
-          Home
-        </li>
-
+        <NavLink to="/">
+          <li className="mx-7 cursor-pointer hover:scale-110 duration-300 text-1xl ">
+            Home
+          </li>
         </NavLink>
 
         <NavLink to="/portfolio">
           <li className="mx-7 cursor-pointer hover:scale-110 duration-300 text-1xl">
             Portfolio
-          </li>
-        </NavLink>
-
-        <NavLink to="/experience">
-          <li className="mx-7 cursor-pointer hover:scale-110 duration-300 text-1xl">
-            Experience
           </li>
         </NavLink>
 
@@ -88,35 +78,42 @@ const Navbar = () => {
         } transition-transform-all absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 flex flex-col items-center justify-center duration-700 `}
       >
         <NavLink to="/">
-          <li className="py-6 cursor-pointer text-2xl flex items-center gap-2" onClick={() => {setMenu(), dispatch({ type: "HAMBURGER_TRUE" })}}>
+          <li
+            className="py-6 cursor-pointer text-2xl flex items-center gap-2"
+            onClick={() => {
+              setMenu(), dispatch({ type: "HAMBURGER_TRUE" });
+            }}
+          >
             <IoMdHome size={25} />
             Home
           </li>
         </NavLink>
 
         <NavLink to="/portfolio">
-          <li className="py-6 cursor-pointer text-2xl flex items-center gap-2" onClick={setMenu}>
+          <li
+            className="py-6 cursor-pointer text-2xl flex items-center gap-2"
+            onClick={setMenu}
+          >
             <GoProjectRoadmap size={23} />
             Portfolio
           </li>
         </NavLink>
 
-        <NavLink to="/experience">
-          <li className="py-6 cursor-pointer text-2xl flex items-center gap-2 " onClick={setMenu}>
-            <BsPersonWorkspace size={22} />
-            Experience
-          </li>
-        </NavLink>
-
         <NavLink to="/contact">
-          <li className="py-6 cursor-pointer text-2xl flex items-center gap-2" onClick={setMenu}>
+          <li
+            className="py-6 cursor-pointer text-2xl flex items-center gap-2"
+            onClick={setMenu}
+          >
             <FaPhoneVolume size={22} />
             Contact
           </li>
         </NavLink>
 
         <NavLink to="/about">
-          <li className="py-6 cursor-pointer text-2xl flex items-center gap-2" onClick={setMenu}>
+          <li
+            className="py-6 cursor-pointer text-2xl flex items-center gap-2"
+            onClick={setMenu}
+          >
             <FaRegUser size={22} />
             About
           </li>

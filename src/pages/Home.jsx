@@ -37,9 +37,9 @@ const Home = () => {
             ) : null}
           </h1>
           <p className="text-gray-500 md:mt-6 text-base mt-8">
-            I have 3 years of experience building and desinging websites.
+            I have 2 years of experience building and desinging websites.
             Currently I love working on webApps using technologies like React ,
-            Tailwind , Node js , PostgreSQL and MongoDb.
+            Tailwind, Node js, PHP, PostgreSQL, My Sql, Firebase and MongoDb.
           </p>
         </div>
       </div>
@@ -253,11 +253,11 @@ const Home = () => {
         </div>
 
         <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 mx-auto md:mt-6 mt-4 mb-20">
-            View All Projects
-            <span className="group-hover:rotate-[360deg] duration-1000 inline-block">
-              <FaArrowRight />
-            </span>
-          </button>
+          View All Projects
+          <span className="group-hover:rotate-[360deg] duration-1000 inline-block">
+            <FaArrowRight />
+          </span>
+        </button>
       </div>
     </div>
   );
