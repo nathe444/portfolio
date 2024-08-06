@@ -88,8 +88,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] justify-center items-center md:px-32 text-gray-200 gap-8 mt-8 md:mt-32 tablet:grid tablet:grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
-        <div className="w-full flex flex-col justify-center items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center md:h-80">
+      <div className="grid items-stretch grid-cols-[repeat(auto-fit,minmax(320px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] justify-center  md:px-32 text-gray-200 gap-8 mt-8 md:mt-32 tablet:grid tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
+        <div className="w-full flex flex-col justify-baseline items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center">
           <img src="/assets/frontend.png" alt="" />
           <h1 className="text-3xl text-white">Frontend</h1>
           <p className="text-sm">
@@ -107,9 +107,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col justify-center items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center md:h-80">
+        <div className="w-full flex flex-col justify-baseline items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center ">
           <img src="/assets/backend.png" alt="" />
-          <h1 className="text-3xl text-white">Backend</h1>
+          <h1 className="text-3xl text-white ">Backend</h1>
           <p className="text-sm">
             As a back-end developer, I engineer robust, scalable, and secure
             server-side solutions that power seamless digital experiences. With
@@ -123,7 +123,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col justify-center items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center md:h-80">
+        <div className="w-full flex flex-col justify-baseline items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center">
           <img src="/assets/database.png" alt="" />
           <h1 className="text-3xl text-white">Database</h1>
           <p className="text-sm">
@@ -140,7 +140,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col justify-center items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center md:h-80">
+        <div className="w-full flex flex-col justify-baseline items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center ">
           <img src="/assets/tools.png" alt="" />
           <h1 className="text-3xl text-white">Tools</h1>
           <p className="text-sm">

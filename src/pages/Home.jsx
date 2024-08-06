@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowDown, FaArrowRight } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { useContext } from "react";
 import { Context } from "../Context/Context";
@@ -25,7 +25,7 @@ const Home = () => {
                 sequence={[
                   "  Full Stack Web Developer",
                   1500,
-                  "  Open Source Contributor",
+                  " Passionate Problem Solver",
                   1500,
                   "  professional Web Designer",
                   1500,
@@ -61,9 +61,9 @@ const Home = () => {
         </div>
 
         <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 ">
-          View Portfolio
+          Download Resume
           <span className="group-hover:transform group-hover:rotate-[360deg] duration-1000  inline-block">
-            <FaArrowRight />
+            <FaArrowDown />
           </span>
         </button>
       </div>
@@ -71,9 +71,9 @@ const Home = () => {
       <div className="flex flex-col gap-4 w-full  text-gray-300 md:hidden mt-12 ">
         <div className="flex justify-center mb-10">
           <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 ">
-            View Portfolio
+            Download Resume
             <span className="group-hover:transform group-hover:rotate-[360deg] duration-1000  inline-block">
-              <FaArrowRight />
+              <FaArrowDown />
             </span>
           </button>
         </div>
