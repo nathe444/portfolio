@@ -88,6 +88,12 @@ const About = () => {
         </div>
       </div>
 
+      <div>
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-100 w-full mt-10 md:mt-20">
+          <u>My Services</u>
+        </h1>
+      </div>
+
       <div className="grid items-stretch grid-cols-[repeat(auto-fit,minmax(320px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] justify-center  md:px-32 text-gray-200 gap-8 mt-8 md:mt-32 tablet:grid tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
         <div className="w-full flex flex-col justify-baseline items-center rounded-3xl bg-gray-800 px-6 py-10 gap-5 text-center">
           <img src="/assets/frontend.png" alt="" />

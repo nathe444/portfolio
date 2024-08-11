@@ -3,6 +3,7 @@ import { FaArrowDown, FaArrowRight } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { useContext } from "react";
 import { Context } from "../Context/Context";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { hamburger } = useContext(Context);
@@ -148,21 +149,27 @@ const Home = () => {
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
-                src="/assets/person.jpg"
+                src="/assets/blog.png"
                 alt=""
                 className="w-full h-60 rounded-2xl tablet:w-96"
               />
 
               <div className="w-full h-60 hidden group-hover:block bg-gray-800 absolute top-0 left-0 rounded-2xl bg-opacity-75 cursor-pointer ">
                 <div className="w-full h-full flex px-10 justify-center items-center gap-10 ">
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/blog-app"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/site.png" alt="" className="w-8" />{" "}
                       <p>Visit Site</p>{" "}
                     </div>
                   </a>
 
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/blog-app"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/code.png" className="w-8" alt="" />{" "}
                       <p>Visit Code</p>{" "}
@@ -173,9 +180,9 @@ const Home = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ea
-              repudiandae quisquam facere blanditiis eius. Numquam, expedita?
-              Enim,{" "}
+              This is a fullstack blog app where users register and custimozie
+              their profiles then post,edit,delete their blogs. A user can also
+              filter blogs by author name , category etc
             </p>
           </div>
 
@@ -184,21 +191,27 @@ const Home = () => {
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
-                src="/assets/person.jpg"
+                src="/assets/shemachoch.png"
                 alt=""
                 className="w-full h-60 rounded-2xl tablet:w-96"
               />
 
               <div className="w-full h-60 hidden group-hover:block bg-gray-800 absolute top-0 left-0 rounded-2xl bg-opacity-75 cursor-pointer ">
                 <div className="w-full h-full flex px-10 justify-center items-center gap-10 ">
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/shemachoch"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/site.png" alt="" className="w-8" />{" "}
                       <p>Visit Site</p>{" "}
                     </div>
                   </a>
 
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/shemachoch"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/code.png" className="w-8" alt="" />{" "}
                       <p>Visit Code</p>{" "}
@@ -209,32 +222,39 @@ const Home = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ea
-              repudiandae quisquam facere blanditiis eius. Numquam, expedita?
-              Enim,{" "}
+              {" "}
+              Shemachoch is a desktop web app that aims to solve the need to
+              support human limitations and improve the efficiency of managing
+              the shemachoch (shop) in Ethiopia.{" "}
             </p>
           </div>
 
           <div className=" relative w-full flex flex-col justify-center items-center bg-gray-900 px-10 md:py-10 py-6 md:gap-12 gap-8 text-center rounded-3xl ">
-            <h1 className="md:text-4xl text-3xl">Amazon</h1>
+            <h1 className="md:text-4xl text-3xl">Food Recipe</h1>
 
             <div className="group relative w-full flex flex-col justify-center items-center bg-gray-900  text-center rounded-3xl gap-12">
               <img
-                src="/assets/person.jpg"
+                src="/assets/foodRecipe.png"
                 alt=""
                 className="w-full h-60 rounded-2xl tablet:w-96"
               />
 
               <div className="w-full h-60 hidden group-hover:block bg-gray-800 absolute top-0 left-0 rounded-2xl bg-opacity-75 cursor-pointer ">
                 <div className="w-full h-full flex px-10 justify-center items-center gap-10 ">
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/food-recipe"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/site.png" alt="" className="w-8" />{" "}
                       <p>Visit Site</p>{" "}
                     </div>
                   </a>
 
-                  <a href="">
+                  <a
+                    href="https://github.com/nathe444/blog-app"
+                    target="_blank"
+                  >
                     <div className="flex flex-col justify-center items-center gap-1 bg-slate-700 hover:bg-orange-600 hover:duration-500 py-3 px-5 rounded-2xl">
                       <img src="/assets/code.png" className="w-8" alt="" />{" "}
                       <p>Visit Code</p>{" "}
@@ -245,19 +265,22 @@ const Home = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ea
-              repudiandae quisquam facere blanditiis eius. Numquam, expedita?
-              Enim,{" "}
+              platform where users can discover, share, manage, and review a
+              wide array of recipes. Users will have the ability to post, edit,
+              delete, and filter recipes, as well as search for specific recipes
+              and give reviews.
             </p>
           </div>
         </div>
 
-        <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 mx-auto md:mt-6 mt-4 mb-20">
-          View All Projects
-          <span className="group-hover:rotate-[360deg] duration-1000 inline-block">
-            <FaArrowRight />
-          </span>
-        </button>
+        <Link to="/portfolio">
+          <button className="group bg-gradient-to-r from-blue-600 to-orange-800 hover:from-blue-500 hover:bg-orange-500 text-white font-bold py-3 px-4 rounded flex justify-center items-center gap-2 mx-auto md:mt-6 mt-4 mb-20">
+            View All Projects
+            <span className="group-hover:rotate-[360deg] duration-1000 inline-block">
+              <FaArrowRight />
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );
